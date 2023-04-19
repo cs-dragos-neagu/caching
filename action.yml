@@ -1,7 +1,6 @@
 name: 'Caching'
 description: 'Git actions caching using symlinks'
 runs:
-  using: "composite"
-  steps:
-    pre: pre-run.sh
-    post: post-run.sh
+  using: 'composite'
+  pre: 'pre-run.sh'
+  post: 'post-run.sh'
